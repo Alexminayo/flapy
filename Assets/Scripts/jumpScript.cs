@@ -41,7 +41,6 @@ public class jumpScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D col)
 	{
 		if(!GameControl.dead){
-			Debug.Log("Muerto");
 			GameControl.dead = true;
 			//AudioSource.PlayClipAtPoint(deadSound, transform.position);
 			//anim.SetBool("dead",true);
